@@ -4,7 +4,15 @@
    libXinerama-devel libXrender-devel libXcomposite-devel libXdamage-devel \
    libX11-devel libXrandr-devel librsvg2-devel startup-notification-devel
    ```
-BUILD
+- BUILD - COMPILAR 
+```
+git clone https://github.com/franckey02/tint2F.git
+cd tint2F
+   mkdir build && cd build
+   cmake ..
+   make -j$(nproc)
+   sudo make install
+```
 # Latest stable release: 16.6.1
 
 Changes: https://gitlab.com/o9000/tint2/blob/16.6.1/ChangeLog
