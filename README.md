@@ -1,4 +1,12 @@
+#DEPENDENCIAS:
+  ```
+ sudo dnf install cairo-devel pango-devel glib2-devel imlib2-devel gtk3-devel \
+   libXinerama-devel libXrender-devel libXcomposite-devel libXdamage-devel \
+   libX11-devel libXrandr-devel librsvg2-devel startup-notification-devel
+   ```
+BUILD
 # Latest stable release: 16.6.1
+
 Changes: https://gitlab.com/o9000/tint2/blob/16.6.1/ChangeLog
 
 Documentation: [doc/tint2.md](doc/tint2.md)
